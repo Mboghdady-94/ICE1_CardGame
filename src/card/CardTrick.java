@@ -27,6 +27,11 @@ public class CardTrick {
             //c.setSuit(Card.SUITS[insert call to random number between 0-3 here])            card.setSuit(Card.SUITS[(int)(Math.random() * 4)]);
             magicHand[i] = c;
         }
+
+        // a hard-coded lucky card
+        Card luckyCard = new Card();
+        luckyCard.setValue(7); // Choose your lucky number (1-13)
+        luckyCard.setSuit("Hearts"); // Choose your lucky suit
         
         //insert code to ask the user for Card value and suit, create their card
         // and search magicHand here
