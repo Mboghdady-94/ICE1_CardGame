@@ -55,6 +55,6 @@ public class CardTrick {
         } else {
             System.out.println("Sorry, your card is not in the magic hand.");
         }
-         }
+        }
     
 }
